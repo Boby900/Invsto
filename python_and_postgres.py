@@ -48,8 +48,8 @@ try:
             
             wholeData = cur.fetchall()
             data = ('2024-03-06 12:00:00', 100.0, 110.0, 90.0, 95.0, 10000, 'AAPL')
-            for data in wholeData:
-                print(data['datetime'], data['low'])
+            # for data in wholeData:
+            #     print(data['datetime'], data['low'])
           
 except Exception as error:
     print(error)
